@@ -1,6 +1,5 @@
 function getRandomInt()
 {
-	var randomNumber = Math.random();
-	return randomNumber;
+	return randomNumber = Math.floor(Math.random() * 6);
 }
 console.log(getRandomInt());

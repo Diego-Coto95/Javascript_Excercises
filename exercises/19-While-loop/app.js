@@ -1,15 +1,13 @@
-
 //fix this function:
-function startCounting()
-{
+function startCounting(){
+
 	var counter = 100;
-	while(counter <= 100)
-	{
-		counter --;
-		console.log(counter);
-	}
-	
-	return counter;
+	while(counter >= 1){
+        console.log(counter);
+		counter--;
+    }
+    counter = 0;
+    return counter;
 }
 
-startCounting();
+console.log(startCounting());
